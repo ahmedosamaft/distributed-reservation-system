@@ -1,0 +1,7 @@
+AUTH_SERVICE_NAME: auth
+
+services:
+  auth: "http://localhost:5001"
+  booking: "http://localhost:5002"
+  payment: "http://localhost:5003"
+  notifications: "http://localhost:5004"
